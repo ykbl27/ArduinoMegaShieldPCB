@@ -3748,7 +3748,7 @@
 		(uuid "1889ec0c-c787-4633-b3e0-4a82c4dafbba")
 	)
 	(junction
-		(at 177.8 128.27)
+		(at 177.8 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "18b90b0f-090c-4e84-9a04-2400171806e2")
@@ -4065,7 +4065,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 128.27) (xy 177.8 128.27)
+			(xy 161.29 130.81) (xy 177.8 130.81)
 		)
 		(stroke
 			(width 0)
@@ -4465,7 +4465,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 129.54) (xy 177.8 128.27)
+			(xy 177.8 132.08) (xy 177.8 130.81)
 		)
 		(stroke
 			(width 0)
@@ -5055,7 +5055,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 128.27) (xy 181.61 128.27)
+			(xy 177.8 130.81) (xy 181.61 130.81)
 		)
 		(stroke
 			(width 0)
@@ -5726,7 +5726,7 @@
 		(uuid "741934d9-f8d6-43f6-8855-df46254eaabd")
 	)
 	(label "Arduino 5V"
-		(at 160.02 128.27 0)
+		(at 160.02 130.81 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8074,7 +8074,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:IRLB8721PBF")
-		(at 186.69 128.27 0)
+		(at 186.69 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8083,15 +8083,6 @@
 		(fields_autoplaced yes)
 		(uuid "5070ce6a-baf8-4e42-a68d-c3eb1f207a6f")
 		(property "Reference" "Q1"
-			(at 193.04 126.9999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IRLB8721PBF"
 			(at 193.04 129.5399 0)
 			(effects
 				(font
@@ -8100,8 +8091,17 @@
 				(justify left)
 			)
 		)
+		(property "Value" "IRLB8721PBF"
+			(at 193.04 132.0799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 191.77 130.175 0)
+			(at 191.77 132.715 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8112,7 +8112,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.infineon.com/dgdl/irlb8721pbf.pdf?fileId=5546d462533600a40153566056732591"
-			(at 191.77 132.08 0)
+			(at 191.77 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8122,7 +8122,7 @@
 			)
 		)
 		(property "Description" "62A Id, 30V Vds, 8.7 mOhm Rds, N-Channel HEXFET Power MOSFET, TO-220"
-			(at 186.69 128.27 0)
+			(at 186.69 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8150,7 +8150,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 189.23 119.38 0)
+		(at 189.23 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8159,15 +8159,6 @@
 		(fields_autoplaced yes)
 		(uuid "507d2658-4d3b-43d3-b2a3-7a066687d3ab")
 		(property "Reference" "R3"
-			(at 191.77 118.1099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "20R"
 			(at 191.77 120.6499 0)
 			(effects
 				(font
@@ -8176,8 +8167,17 @@
 				(justify left)
 			)
 		)
+		(property "Value" "20R"
+			(at 191.77 123.1899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(property "Footprint" ""
-			(at 190.246 119.634 90)
+			(at 190.246 122.174 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8186,7 +8186,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.caddock.com/online_catalog/mrktg_lit/MP9000_Series.pdf"
-			(at 189.23 119.38 0)
+			(at 189.23 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8195,7 +8195,7 @@
 			)
 		)
 		(property "Description" "Resistor, MP915 20.0 1%"
-			(at 189.23 119.38 0)
+			(at 189.23 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8459,7 +8459,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 189.23 111.76 0)
+		(at 189.23 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8468,15 +8468,6 @@
 		(fields_autoplaced yes)
 		(uuid "6196288e-df7a-4309-ab80-94346231e5c5")
 		(property "Reference" "R2"
-			(at 191.77 110.4899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "20R"
 			(at 191.77 113.0299 0)
 			(effects
 				(font
@@ -8485,8 +8476,17 @@
 				(justify left)
 			)
 		)
+		(property "Value" "20R"
+			(at 191.77 115.5699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(property "Footprint" ""
-			(at 190.246 112.014 90)
+			(at 190.246 114.554 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8495,7 +8495,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.caddock.com/online_catalog/mrktg_lit/MP9000_Series.pdf"
-			(at 189.23 111.76 0)
+			(at 189.23 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8504,7 +8504,7 @@
 			)
 		)
 		(property "Description" "Resistor, MP915 20.0 1%"
-			(at 189.23 111.76 0)
+			(at 189.23 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8679,7 +8679,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 189.23 133.35 0)
+		(at 189.23 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8687,7 +8687,7 @@
 		(dnp no)
 		(uuid "951e31c7-a03d-4a7f-bccd-0e0455bb8aa7")
 		(property "Reference" "#PWR010"
-			(at 189.23 139.7 0)
+			(at 189.23 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8696,7 +8696,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 189.23 137.16 0)
+			(at 189.23 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8704,7 +8704,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 189.23 133.35 0)
+			(at 189.23 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8713,7 +8713,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.23 133.35 0)
+			(at 189.23 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8722,7 +8722,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 189.23 133.35 0)
+			(at 189.23 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9226,7 +9226,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 177.8 137.16 0)
+		(at 177.8 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9234,7 +9234,7 @@
 		(dnp no)
 		(uuid "dcc18534-7dda-4cd8-a951-cb7acdf31dfa")
 		(property "Reference" "#PWR08"
-			(at 177.8 143.51 0)
+			(at 177.8 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9243,7 +9243,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 177.8 140.97 0)
+			(at 177.8 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9251,7 +9251,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 177.8 137.16 0)
+			(at 177.8 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9260,7 +9260,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 137.16 0)
+			(at 177.8 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9269,7 +9269,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 177.8 137.16 0)
+			(at 177.8 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9484,7 +9484,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 189.23 107.95 0)
+		(at 189.23 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9492,7 +9492,7 @@
 		(dnp no)
 		(uuid "ee1d3add-527a-4e80-905b-e473d525d2a4")
 		(property "Reference" "#PWR09"
-			(at 189.23 111.76 0)
+			(at 189.23 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9501,7 +9501,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 189.23 104.14 0)
+			(at 189.23 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9509,7 +9509,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 189.23 107.95 0)
+			(at 189.23 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9518,7 +9518,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.23 107.95 0)
+			(at 189.23 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9527,7 +9527,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 189.23 107.95 0)
+			(at 189.23 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9549,7 +9549,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 177.8 133.35 0)
+		(at 177.8 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9557,15 +9557,6 @@
 		(dnp no)
 		(uuid "f0d4f470-8d0d-49de-a3be-8230526e1429")
 		(property "Reference" "R1"
-			(at 179.07 132.334 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10K"
 			(at 179.07 134.874 0)
 			(effects
 				(font
@@ -9574,8 +9565,17 @@
 				(justify left)
 			)
 		)
+		(property "Value" "10K"
+			(at 179.07 137.414 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(property "Footprint" ""
-			(at 176.022 133.35 90)
+			(at 176.022 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9584,7 +9584,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 177.8 133.35 0)
+			(at 177.8 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9593,7 +9593,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 177.8 133.35 0)
+			(at 177.8 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
