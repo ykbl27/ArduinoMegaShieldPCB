@@ -5,9 +5,391 @@
 	(uuid "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55")
 	(paper "A4")
 	(title_block
+		(title "Arduino Mega Shield Schematic (Sylveon)")
 		(date "mar. 31 mars 2015")
 	)
 	(lib_symbols
+		(symbol "Connector:Barrel_Jack_Switch"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.334 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Barrel_Jack_Switch"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.27 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 1.27 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "DC Barrel Jack with an internal switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "DC power barrel jack connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "BarrelJack*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Barrel_Jack_Switch_0_1"
+				(rectangle
+					(start -5.08 3.81)
+					(end 5.08 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start -3.302 3.175)
+					(mid -3.9343 2.54)
+					(end -3.302 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -3.302 3.175)
+					(mid -3.9343 2.54)
+					(end -3.302 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.286) (xy 1.905 -1.651)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 3.81 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 1.27 0) (xy 1.27 -2.286) (xy 0.635 -1.651)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -2.54) (xy -2.54 -2.54) (xy -1.27 -1.27) (xy 0 -2.54) (xy 2.54 -2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.683 3.175)
+					(end -3.302 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "Barrel_Jack_Switch_1_1"
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Connector:Conn_01x02_Socket"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02_Socket"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_Socket_1_1"
+				(arc
+					(start 0 -2.032)
+					(mid -0.5058 -2.54)
+					(end 0 -3.048)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -0.508 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0.508)
+					(mid -0.5058 0)
+					(end 0 -0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector:Conn_01x04_Socket"
 			(pin_names
 				(offset 1.016) hide)
@@ -178,6 +560,701 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Connector:Conn_01x10_Socket"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x10_Socket"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x10, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x10_Socket_1_1"
+				(arc
+					(start 0 -12.192)
+					(mid -0.5058 -12.7)
+					(end 0 -13.208)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -9.652)
+					(mid -0.5058 -10.16)
+					(end 0 -10.668)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -7.112)
+					(mid -0.5058 -7.62)
+					(end 0 -8.128)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -4.572)
+					(mid -0.5058 -5.08)
+					(end 0 -5.588)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -2.032)
+					(mid -0.5058 -2.54)
+					(end 0 -3.048)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -12.7) (xy -0.508 -12.7)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -10.16) (xy -0.508 -10.16)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -7.62) (xy -0.508 -7.62)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -5.08) (xy -0.508 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -0.508 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy -0.508 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 5.08) (xy -0.508 5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 7.62) (xy -0.508 7.62)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 10.16) (xy -0.508 10.16)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0.508)
+					(mid -0.5058 0)
+					(end 0 -0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 3.048)
+					(mid -0.5058 2.54)
+					(end 0 2.032)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 5.588)
+					(mid -0.5058 5.08)
+					(end 0 4.572)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 8.128)
+					(mid -0.5058 7.62)
+					(end 0 7.112)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 10.668)
+					(mid -0.5058 10.16)
+					(end 0 9.652)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 10.16 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -12.7 0)
+					(length 3.81)
+					(name "Pin_10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 7.62 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -10.16 0)
+					(length 3.81)
+					(name "Pin_9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Connector_Generic:Conn_01x04"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x04"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x04_1_1"
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
 					)
 				)
 				(pin passive line
@@ -2342,182 +3419,12 @@
 				)
 			)
 		)
-		(symbol "Device:R_US"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
+		(symbol "MP6500_Pololu_1"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "R"
-				(at 2.54 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R_US"
-				(at -2.54 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 1.016 -0.254 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor, US symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_US_0_1"
-				(polyline
-					(pts
-						(xy 0 -2.286) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.286) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_US_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "New_Library:MP6500_Pololu"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 7.874 0)
+			(property "Reference" "U1"
+				(at 0 8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2525,14 +3432,14 @@
 				)
 			)
 			(property "Value" "MP6500_Pololu"
-				(at 0 5.334 0)
+				(at 0 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Module:Pololu_Breakout-16_15.2x20.3mm"
 				(at -6.35 1.27 0)
 				(effects
 					(font
@@ -2559,7 +3466,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "MP6500_Pololu_0_1"
+			(symbol "MP6500_Pololu_1_0_1"
 				(rectangle
 					(start -7.62 3.81)
 					(end 7.62 -27.94)
@@ -2572,7 +3479,7 @@
 					)
 				)
 			)
-			(symbol "MP6500_Pololu_1_1"
+			(symbol "MP6500_Pololu_1_1_1"
 				(pin bidirectional line
 					(at -10.16 1.27 0)
 					(length 2.54)
@@ -2592,9 +3499,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at 10.16 -2.54 180)
+					(at 10.16 -21.59 180)
 					(length 2.54)
-					(name "GND"
+					(name "FAULT"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2602,60 +3509,6 @@
 						)
 					)
 					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 10.16 -6.35 180)
-					(length 2.54)
-					(name "B2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 10.16 -10.16 180)
-					(length 2.54)
-					(name "B1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 10.16 -13.97 180)
-					(length 2.54)
-					(name "A1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2673,6 +3526,60 @@
 							)
 						)
 					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 -13.97 180)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 -10.16 180)
+					(length 2.54)
+					(name "B1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 -6.35 180)
+					(length 2.54)
+					(name "B2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
 					(number "14"
 						(effects
 							(font
@@ -2682,9 +3589,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at 10.16 -21.59 180)
+					(at 10.16 -2.54 180)
 					(length 2.54)
-					(name "FAULT"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2700,9 +3607,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at 10.16 -25.4 180)
+					(at 10.16 1.27 180)
 					(length 2.54)
-					(name "GND"
+					(name "VMOT"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2844,9 +3751,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at 10.16 1.27 180)
+					(at 10.16 -25.4 180)
 					(length 2.54)
-					(name "VMOT"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3742,16 +4649,28 @@
 		(uuid "127679a9-3981-4934-815e-896a4e3ff56e")
 	)
 	(junction
-		(at 240.03 130.81)
+		(at 106.68 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1889ec0c-c787-4633-b3e0-4a82c4dafbba")
+		(uuid "13ebd8fc-a52c-4321-b8e3-cfdaa179058f")
 	)
 	(junction
-		(at 177.8 130.81)
+		(at 196.85 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "18b90b0f-090c-4e84-9a04-2400171806e2")
+		(uuid "24b8d136-6307-46dc-9244-037cc5ff245b")
+	)
+	(junction
+		(at 95.25 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "36e22881-131d-4030-8176-a2a7f78fb76c")
+	)
+	(junction
+		(at 137.16 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3c3141f9-23e1-470c-ba25-def02c7762f3")
 	)
 	(junction
 		(at 215.9 24.13)
@@ -3766,16 +4685,82 @@
 		(uuid "48ab88d7-7084-4d02-b109-3ad55a30bb11")
 	)
 	(junction
+		(at 186.69 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4f4a3a93-bc6c-4040-a752-6808fe85f91a")
+	)
+	(junction
+		(at 106.68 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "557680af-e2c8-42cd-a472-ed477ed4592e")
+	)
+	(junction
 		(at 152.4 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "68edf3b8-5bde-474a-b219-6b7174703d51")
 	)
 	(junction
+		(at 218.44 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6a3d2dab-7c2f-4552-b2bf-fab15f4627f0")
+	)
+	(junction
+		(at 148.59 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6e9316ec-575f-49bf-b4c4-0755be7f1f84")
+	)
+	(junction
 		(at 215.9 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6f8b7526-0f86-4f69-8133-6018e16df288")
+	)
+	(junction
+		(at 261.62 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8dc5414f-fb76-490c-b318-1d1f8679bfa5")
+	)
+	(junction
+		(at 196.85 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "961fdb18-ce7e-4f4b-a759-02e9b405beaf")
+	)
+	(junction
+		(at 191.77 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "981574e0-5450-47cc-a28f-33c9456a3f65")
+	)
+	(junction
+		(at 148.59 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bc5d674e-39c8-43f7-83e4-3e7dbc6a00b8")
+	)
+	(junction
+		(at 175.26 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d47e93bb-4927-4263-911b-9f11b3079c84")
+	)
+	(junction
+		(at 181.61 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e1ae5ea8-c2a9-47b7-9b2b-27b7bb9e23f7")
+	)
+	(junction
+		(at 240.03 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e570fc09-586f-493d-b998-7acc5fc3a3da")
 	)
 	(junction
 		(at 152.4 24.13)
@@ -3855,7 +4840,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 54.61) (xy 93.98 59.69)
+			(xy 93.98 81.28) (xy 93.98 86.36)
 		)
 		(stroke
 			(width 0)
@@ -3895,7 +4880,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 57.15) (xy 91.44 54.61)
+			(xy 91.44 83.82) (xy 91.44 81.28)
 		)
 		(stroke
 			(width 0)
@@ -3995,6 +4980,36 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 119.38) (xy 106.68 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d93acfb-09a8-43cb-9527-55b6f68cd8f9")
+	)
+	(wire
+		(pts
+			(xy 181.61 118.11) (xy 186.69 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1eb84042-886b-4f38-b404-d2f3a13f53ac")
+	)
+	(wire
+		(pts
+			(xy 171.45 132.08) (xy 175.26 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fa7530b-8b3f-40b4-a1e3-4356109d213c")
+	)
+	(wire
+		(pts
 			(xy 49.53 132.08) (xy 49.53 142.24)
 		)
 		(stroke
@@ -4012,6 +5027,16 @@
 			(type solid)
 		)
 		(uuid "20854542-d0b0-4be7-af02-0e5fceb34e01")
+	)
+	(wire
+		(pts
+			(xy 261.62 132.08) (xy 262.89 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22e9546c-7b43-48d9-b999-bc30a02706ae")
 	)
 	(wire
 		(pts
@@ -4065,16 +5090,6 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 130.81) (xy 177.8 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "28d18fc5-f9d5-4c3a-81b4-1ea3152daf67")
-	)
-	(wire
-		(pts
 			(xy 31.75 46.99) (xy 31.75 52.07)
 		)
 		(stroke
@@ -4115,6 +5130,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 119.38) (xy 107.95 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33e6a2b0-9235-47a0-a0c9-3aff9d268dbf")
+	)
+	(wire
+		(pts
 			(xy 149.86 46.99) (xy 149.86 44.45)
 		)
 		(stroke
@@ -4122,6 +5147,16 @@
 			(type default)
 		)
 		(uuid "360d9785-3746-44e8-9714-6582530402e9")
+	)
+	(wire
+		(pts
+			(xy 180.34 118.11) (xy 181.61 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "365e9088-d30d-4fd4-92b6-8f8afa1ec002")
 	)
 	(wire
 		(pts
@@ -4165,6 +5200,16 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 132.08) (xy 218.44 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3adcc314-16ac-4d60-bc8c-bd7af3ec4c9a")
+	)
+	(wire
+		(pts
 			(xy 36.83 132.08) (xy 36.83 142.24)
 		)
 		(stroke
@@ -4172,6 +5217,16 @@
 			(type solid)
 		)
 		(uuid "3ae83c3d-8380-48c7-a73d-ae2011c5444d")
+	)
+	(wire
+		(pts
+			(xy 130.81 127) (xy 137.16 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3af878b7-38ff-4674-a207-805e20dac649")
 	)
 	(wire
 		(pts
@@ -4185,6 +5240,26 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 110.49) (xy 189.23 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cf60f20-1a39-4478-a7fa-31ea2c86277f")
+	)
+	(wire
+		(pts
+			(xy 148.59 119.38) (xy 149.86 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4141cc30-c1ef-4fa5-ba59-efe48fb1c787")
+	)
+	(wire
+		(pts
 			(xy 62.23 36.83) (xy 74.93 36.83)
 		)
 		(stroke
@@ -4192,6 +5267,16 @@
 			(type solid)
 		)
 		(uuid "4227fa6f-c399-4f14-8228-23e39d2b7e7d")
+	)
+	(wire
+		(pts
+			(xy 240.03 132.08) (xy 241.3 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4353d4da-4c12-4000-9bc4-601761be4776")
 	)
 	(wire
 		(pts
@@ -4215,7 +5300,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 57.15) (xy 111.76 57.15)
+			(xy 99.06 83.82) (xy 111.76 83.82)
 		)
 		(stroke
 			(width 0)
@@ -4232,6 +5317,16 @@
 			(type solid)
 		)
 		(uuid "486ca832-85f4-4989-b0f4-569faf9be534")
+	)
+	(wire
+		(pts
+			(xy 193.04 132.08) (xy 196.85 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a258a8d-44d5-47d4-a23d-50f8bff9b1e0")
 	)
 	(wire
 		(pts
@@ -4255,6 +5350,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 110.49) (xy 181.61 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4de00632-9eaf-464f-801b-10ec0af56866")
+	)
+	(wire
+		(pts
 			(xy 62.23 62.23) (xy 74.93 62.23)
 		)
 		(stroke
@@ -4265,7 +5370,17 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 57.15) (xy 91.44 57.15)
+			(xy 147.32 104.14) (xy 148.59 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ebf410b-746f-4825-89c4-4b4fd1ecbe5f")
+	)
+	(wire
+		(pts
+			(xy 90.17 83.82) (xy 91.44 83.82)
 		)
 		(stroke
 			(width 0)
@@ -4285,6 +5400,26 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 119.38) (xy 148.59 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5832641c-f6f8-40f7-bcf4-311274d198d4")
+	)
+	(wire
+		(pts
+			(xy 184.15 110.49) (xy 184.15 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "596295f8-3724-407f-991a-d48b3853cd1b")
+	)
+	(wire
+		(pts
 			(xy 52.07 109.22) (xy 52.07 119.38)
 		)
 		(stroke
@@ -4295,7 +5430,17 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 54.61) (xy 99.06 57.15)
+			(xy 196.85 110.49) (xy 196.85 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b9784dd-63a4-40a1-891e-e77796c47086")
+	)
+	(wire
+		(pts
+			(xy 99.06 81.28) (xy 99.06 83.82)
 		)
 		(stroke
 			(width 0)
@@ -4375,6 +5520,26 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 83.82) (xy 132.08 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64b91670-9024-4c93-b436-859b0569eb52")
+	)
+	(wire
+		(pts
+			(xy 99.06 54.61) (xy 99.06 52.07)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "663b0fd4-c590-46ca-add6-9e6600d7501d")
+	)
+	(wire
+		(pts
 			(xy 93.98 27.94) (xy 93.98 33.02)
 		)
 		(stroke
@@ -4395,13 +5560,33 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 132.08) (xy 240.03 130.81)
+			(xy 147.32 119.38) (xy 148.59 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "68391b69-0905-453a-a8e9-dce16c6926a1")
+		(uuid "67cf7d3c-6244-41d9-844e-c5a60960e6de")
+	)
+	(wire
+		(pts
+			(xy 191.77 118.11) (xy 186.69 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67e88171-706d-45b5-92af-6df8ff04afb1")
+	)
+	(wire
+		(pts
+			(xy 236.22 132.08) (xy 240.03 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "686969d5-a51f-485f-80f8-a1cf7423f806")
 	)
 	(wire
 		(pts
@@ -4465,7 +5650,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 132.08) (xy 177.8 130.81)
+			(xy 95.25 128.27) (xy 95.25 127)
 		)
 		(stroke
 			(width 0)
@@ -4505,6 +5690,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 54.61) (xy 111.76 54.61)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "772660e2-5652-44ec-b424-0943dbcf0f33")
+	)
+	(wire
+		(pts
 			(xy 90.17 30.48) (xy 91.44 30.48)
 		)
 		(stroke
@@ -4515,13 +5710,33 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 130.81) (xy 240.03 130.81)
+			(xy 189.23 127) (xy 205.74 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "79897a07-f440-4d6c-8c9b-c065222d5aab")
+		(uuid "78fbcb59-d89c-4870-a1aa-e05aa7df036a")
+	)
+	(wire
+		(pts
+			(xy 191.77 110.49) (xy 191.77 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a870bf5-6e56-44e5-937c-171738f11995")
+	)
+	(wire
+		(pts
+			(xy 194.31 110.49) (xy 194.31 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c6c6cd0-17ab-4cf4-a33c-36deecae4a35")
 	)
 	(wire
 		(pts
@@ -4552,6 +5767,16 @@
 			(type solid)
 		)
 		(uuid "802f1617-74b6-45d5-81bd-fc68fa18fa33")
+	)
+	(wire
+		(pts
+			(xy 201.93 110.49) (xy 201.93 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81536fe1-bd4d-4887-a29e-8e01d8494fe5")
 	)
 	(wire
 		(pts
@@ -4602,6 +5827,16 @@
 			(type solid)
 		)
 		(uuid "8a3d35a2-f0f6-4dec-a606-7c8e288ca828")
+	)
+	(wire
+		(pts
+			(xy 257.81 132.08) (xy 261.62 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a80aaa0-bc07-45f6-9701-42b1659752df")
 	)
 	(wire
 		(pts
@@ -4665,6 +5900,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 119.38) (xy 106.68 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9590fe10-6d55-453d-b49b-2dc3a8a5bec8")
+	)
+	(wire
+		(pts
 			(xy 62.23 85.09) (xy 74.93 85.09)
 		)
 		(stroke
@@ -4672,6 +5917,16 @@
 			(type solid)
 		)
 		(uuid "95ef487c-5414-4cc4-b8e5-a7f669bf018c")
+	)
+	(wire
+		(pts
+			(xy 201.93 118.11) (xy 196.85 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "970c0070-fc21-4c91-b147-1c568f28ca68")
 	)
 	(wire
 		(pts
@@ -4725,6 +5980,26 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 78.74) (xy 132.08 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ee323c4-12d9-4c8f-8a39-9f67ff3dbc32")
+	)
+	(wire
+		(pts
+			(xy 91.44 54.61) (xy 91.44 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f8917b7-ab50-4448-a7c0-3896835837a9")
+	)
+	(wire
+		(pts
 			(xy 146.05 24.13) (xy 146.05 27.94)
 		)
 		(stroke
@@ -4735,7 +6010,17 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 54.61) (xy 96.52 59.69)
+			(xy 96.52 52.07) (xy 96.52 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a254aad0-ad44-41c1-a11e-25637bc8186c")
+	)
+	(wire
+		(pts
+			(xy 96.52 81.28) (xy 96.52 86.36)
 		)
 		(stroke
 			(width 0)
@@ -4765,6 +6050,16 @@
 	)
 	(wire
 		(pts
+			(xy 186.69 118.11) (xy 186.69 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a96c9f16-46e8-4516-8229-a81e8ec5c11d")
+	)
+	(wire
+		(pts
 			(xy 21.59 62.23) (xy 34.29 62.23)
 		)
 		(stroke
@@ -4775,6 +6070,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 104.14) (xy 107.95 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad073f66-65a9-4c6d-a386-cd7b9d883adc")
+	)
+	(wire
+		(pts
 			(xy 31.75 132.08) (xy 31.75 142.24)
 		)
 		(stroke
@@ -4782,6 +6087,16 @@
 			(type solid)
 		)
 		(uuid "ae24cfe6-ec28-41d1-bf81-0cf92b50f641")
+	)
+	(wire
+		(pts
+			(xy 88.9 127) (xy 95.25 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae5ef026-fc37-4e46-9963-318519f4da93")
 	)
 	(wire
 		(pts
@@ -4805,6 +6120,16 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 110.49) (xy 204.47 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5d4bdf5-47b1-457a-8f1d-0f8378a7d0ba")
+	)
+	(wire
+		(pts
 			(xy 54.61 132.08) (xy 54.61 142.24)
 		)
 		(stroke
@@ -4812,6 +6137,26 @@
 			(type solid)
 		)
 		(uuid "b63bc819-7b59-4a1f-ad62-990c3daa90d9")
+	)
+	(wire
+		(pts
+			(xy 96.52 57.15) (xy 111.76 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b813feac-0d01-4023-be10-d93289190c87")
+	)
+	(wire
+		(pts
+			(xy 227.33 124.46) (xy 227.33 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b85ec716-e126-414b-9c6a-f18f813d2061")
 	)
 	(wire
 		(pts
@@ -4855,6 +6200,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 128.27) (xy 137.16 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcf3b6b3-0594-4a2b-9c69-c45f399726f1")
+	)
+	(wire
+		(pts
 			(xy 46.99 132.08) (xy 46.99 142.24)
 		)
 		(stroke
@@ -4875,6 +6230,36 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 121.92) (xy 248.92 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdd6fae4-5f1c-4ae7-8fd5-e373831dc13f")
+	)
+	(wire
+		(pts
+			(xy 196.85 118.11) (xy 191.77 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be949856-eee8-4a4c-ab7d-43c9db2ff014")
+	)
+	(wire
+		(pts
+			(xy 106.68 101.6) (xy 106.68 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be9964a4-9343-499f-8ca8-f5fcf8ebccf6")
+	)
+	(wire
+		(pts
 			(xy 34.29 44.45) (xy 31.75 44.45)
 		)
 		(stroke
@@ -4882,6 +6267,26 @@
 			(type solid)
 		)
 		(uuid "c12796ad-cf20-466f-9ab3-9cf441392c32")
+	)
+	(wire
+		(pts
+			(xy 204.47 119.38) (xy 270.51 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1c60c49-01ef-462f-b3d2-222abb460a75")
+	)
+	(wire
+		(pts
+			(xy 148.59 101.6) (xy 148.59 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1e227f6-700b-4c67-8e1c-b122779975cb")
 	)
 	(wire
 		(pts
@@ -4895,13 +6300,13 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 130.81) (xy 243.84 130.81)
+			(xy 93.98 52.07) (xy 93.98 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c42474cb-d6d1-4a16-b307-5fcaf5f1d1aa")
+		(uuid "c361a8d3-818b-4fd3-a05b-cc3986c68d06")
 	)
 	(wire
 		(pts
@@ -4925,6 +6330,26 @@
 	)
 	(wire
 		(pts
+			(xy 248.92 121.92) (xy 248.92 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4e31459-9b9d-4ecf-b57f-70e4d77a0185")
+	)
+	(wire
+		(pts
+			(xy 105.41 104.14) (xy 106.68 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5ae6579-513e-4263-80d3-23cb8c0ef928")
+	)
+	(wire
+		(pts
 			(xy 62.23 41.91) (xy 74.93 41.91)
 		)
 		(stroke
@@ -4932,6 +6357,16 @@
 			(type solid)
 		)
 		(uuid "c722a1ff-12f1-49e5-88a4-44ffeb509ca2")
+	)
+	(wire
+		(pts
+			(xy 137.16 127) (xy 140.97 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c79d9aac-814e-4138-93d0-c758dab0638c")
 	)
 	(wire
 		(pts
@@ -4945,6 +6380,26 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 104.14) (xy 149.86 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9fd69fa-80ab-4bdd-9465-e8466ada36a9")
+	)
+	(wire
+		(pts
+			(xy 196.85 132.08) (xy 198.12 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cacd43af-e607-444a-8a9d-a60aed46d58b")
+	)
+	(wire
+		(pts
 			(xy 21.59 87.63) (xy 34.29 87.63)
 		)
 		(stroke
@@ -4952,6 +6407,16 @@
 			(type solid)
 		)
 		(uuid "cb133df4-75a8-44a9-a59b-b2bf35892b1e")
+	)
+	(wire
+		(pts
+			(xy 90.17 54.61) (xy 91.44 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfd99ea1-6d48-471d-9939-3d741ad0b8bb")
 	)
 	(wire
 		(pts
@@ -5035,6 +6500,16 @@
 	)
 	(wire
 		(pts
+			(xy 270.51 119.38) (xy 270.51 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcab0de9-a7a9-4a1d-a242-4b41debb4a31")
+	)
+	(wire
+		(pts
 			(xy 34.29 85.09) (xy 21.59 85.09)
 		)
 		(stroke
@@ -5055,7 +6530,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 130.81) (xy 181.61 130.81)
+			(xy 95.25 127) (xy 99.06 127)
 		)
 		(stroke
 			(width 0)
@@ -5105,6 +6580,26 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 132.08) (xy 219.71 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e862f9f4-3bb5-4139-a783-cd2e407a6521")
+	)
+	(wire
+		(pts
+			(xy 199.39 110.49) (xy 199.39 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e86aae40-f365-4e33-bcd8-d703af7f3224")
+	)
+	(wire
+		(pts
 			(xy 210.82 54.61) (xy 209.55 54.61)
 		)
 		(stroke
@@ -5142,6 +6637,26 @@
 			(type solid)
 		)
 		(uuid "ec76dcc9-9949-4dda-bd76-046204829cb4")
+	)
+	(wire
+		(pts
+			(xy 175.26 132.08) (xy 176.53 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efca2489-7ff3-4f8c-ba4b-99db6f962529")
+	)
+	(wire
+		(pts
+			(xy 194.31 124.46) (xy 227.33 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0987f9b-fcbf-4fe7-a8fc-39e53706a7fe")
 	)
 	(wire
 		(pts
@@ -5235,7 +6750,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 59.69) (xy 111.76 59.69)
+			(xy 96.52 86.36) (xy 111.76 86.36)
 		)
 		(stroke
 			(width 0)
@@ -5264,8 +6779,8 @@
 		(uuid "fe837306-92d0-4847-ad21-76c47ae932d1")
 	)
 	(rectangle
-		(start 80.01 39.37)
-		(end 113.03 66.04)
+		(start 80.01 66.04)
+		(end 113.03 92.71)
 		(stroke
 			(width 0)
 			(type default)
@@ -5276,8 +6791,20 @@
 		(uuid 47a973fc-b9b0-413b-8415-d8c9a9e6888c)
 	)
 	(rectangle
+		(start 80.01 92.71)
+		(end 166.37 142.24)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5607043f-6ba3-46ef-a4d5-024c423afab2)
+	)
+	(rectangle
 		(start 80.01 12.7)
-		(end 113.03 39.37)
+		(end 113.03 66.04)
 		(stroke
 			(width 0)
 			(type default)
@@ -5286,6 +6813,18 @@
 			(type none)
 		)
 		(uuid 6411ebd0-32ce-4b44-8c94-3e54d98b2364)
+	)
+	(rectangle
+		(start 113.03 66.04)
+		(end 143.51 92.71)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 699e53dc-b59e-45fd-95cd-56c23a771fc3)
 	)
 	(rectangle
 		(start 12.7 12.7)
@@ -5298,6 +6837,18 @@
 			(type none)
 		)
 		(uuid 6db20aa6-cd07-4aec-b641-ccc4daaec906)
+	)
+	(rectangle
+		(start 166.37 92.71)
+		(end 280.67 148.59)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 9606b9d5-0801-4e66-a17d-a74f374cc555)
 	)
 	(rectangle
 		(start 113.03 12.7)
@@ -5321,6 +6872,36 @@
 		)
 		(uuid "07da65d8-d363-447d-929d-9b14b4621591")
 	)
+	(text "Valve MOSFETs"
+		(exclude_from_sim no)
+		(at 175.26 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0d6b8791-a37e-4e07-bd3f-2f2576681217")
+	)
+	(text "Heating Capacitors between"
+		(exclude_from_sim no)
+		(at 107.188 112.014 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "12812655-db05-4113-852b-5db3de17637e")
+	)
+	(text "Power Supply"
+		(exclude_from_sim no)
+		(at 120.142 67.818 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2a2c7478-19e3-472c-9edc-7610d8221005")
+	)
 	(text "Temp Sensors"
 		(exclude_from_sim no)
 		(at 87.376 14.478 0)
@@ -5331,6 +6912,26 @@
 		)
 		(uuid "4a8ab1c7-73fa-4401-9161-0f844dd7b209")
 	)
+	(text "Heating Capacitors between"
+		(exclude_from_sim no)
+		(at 149.098 112.014 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "651c323c-1774-4127-be09-7ab692d504e7")
+	)
+	(text "Heating Capacitors (zigzag Resistors)"
+		(exclude_from_sim no)
+		(at 99.314 94.742 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7e9b92f8-e0cd-463b-af5b-5ba7c9e9b2fa")
+	)
 	(text "Arduino Template"
 		(exclude_from_sim no)
 		(at 21.844 14.986 0)
@@ -5340,6 +6941,16 @@
 			)
 		)
 		(uuid "9e5fd9e0-a258-4989-a3f5-e90cd175c88a")
+	)
+	(text "J15 and J16 CONNECTORS STILL UNDECIDED"
+		(exclude_from_sim no)
+		(at 199.644 168.402 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a652bd6b-1209-4ec0-8a2b-bf1fd352e9cc")
 	)
 	(text "* Indicates a PWM-capable pin"
 		(exclude_from_sim no)
@@ -5354,7 +6965,7 @@
 	)
 	(text "O2 Sensor Dock"
 		(exclude_from_sim no)
-		(at 88.138 41.148 0)
+		(at 88.138 67.818 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5472,6 +7083,28 @@
 		)
 		(uuid "20a273c2-0c4f-461a-8c0e-654a98990be4")
 	)
+	(label "*8"
+		(at 214.63 132.08 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "218bfe3b-0d4d-48e0-8cbc-aef2cd0711de")
+	)
+	(label "*7"
+		(at 193.04 132.08 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "22885de7-9b27-41b1-9817-e14cc1ba2daa")
+	)
 	(label "33"
 		(at 54.61 142.24 90)
 		(fields_autoplaced yes)
@@ -5526,6 +7159,17 @@
 			(justify right bottom)
 		)
 		(uuid "2aff2e4f-ddeb-4b6a-988b-8a38e981162b")
+	)
+	(label "SDA{slash}20"
+		(at 111.76 54.61 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2bd69073-eaa2-4936-ad62-2a4a19adb536")
 	)
 	(label "*44"
 		(at 39.37 109.22 270)
@@ -5604,6 +7248,17 @@
 		)
 		(uuid "446e7707-0eb2-45de-bcdf-e444940e1928")
 	)
+	(label "*9"
+		(at 236.22 132.08 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4822eb2f-a0f1-4746-adc2-9ed6a104ed4a")
+	)
 	(label "~{RESET}"
 		(at 19.05 36.83 0)
 		(fields_autoplaced yes)
@@ -5638,7 +7293,7 @@
 		(uuid "54be04e4-fffa-4f7f-8a5f-d0de81314e8f")
 	)
 	(label "TX1{slash}18"
-		(at 111.76 59.69 180)
+		(at 111.76 86.36 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5725,8 +7380,8 @@
 		)
 		(uuid "741934d9-f8d6-43f6-8855-df46254eaabd")
 	)
-	(label "Arduino 5V"
-		(at 160.02 130.81 0)
+	(label "*12"
+		(at 130.81 127 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5734,7 +7389,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "75f42850-f7da-42f1-985b-7b0c88417a59")
+		(uuid "76919e3e-8408-49c8-ab42-99d22f0ec4b4")
 	)
 	(label "41"
 		(at 44.45 142.24 90)
@@ -5846,6 +7501,17 @@
 		)
 		(uuid "89b0e564-e7aa-4224-80c9-3f0614fede8f")
 	)
+	(label "*10"
+		(at 257.81 132.08 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "92ecc226-4fd6-4558-8b3d-c92b961b2185")
+	)
 	(label "A9"
 		(at 21.59 87.63 0)
 		(fields_autoplaced yes)
@@ -5880,7 +7546,7 @@
 		(uuid "9cccf5f9-68a4-4e61-b418-6185dd6a5f9a")
 	)
 	(label "RX1{slash}19"
-		(at 111.76 57.15 180)
+		(at 111.76 83.82 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5900,17 +7566,6 @@
 			(justify left bottom)
 		)
 		(uuid "a1efee75-1bb5-4d45-9549-00d92a929e20")
-	)
-	(label "Arduino 5V"
-		(at 222.25 130.81 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a4c644c1-c973-4348-a2f3-03b85ab5b4a7")
 	)
 	(label "A6"
 		(at 21.59 74.93 0)
@@ -5944,6 +7599,17 @@
 			(justify left bottom)
 		)
 		(uuid "acc9991b-1bdd-4544-9a08-4037937485cb")
+	)
+	(label "*6"
+		(at 171.45 132.08 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "acd12d34-b3fc-4034-b48c-13c24ef149b7")
 	)
 	(label "53"
 		(at 29.21 142.24 90)
@@ -6076,6 +7742,17 @@
 			(justify left bottom)
 		)
 		(uuid "c62cb2f9-93e6-4de3-82d9-f406dcc835c2")
+	)
+	(label "*11"
+		(at 88.9 127 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c64d0f17-ce08-432e-a47b-14bc07705c63")
 	)
 	(label "25"
 		(at 64.77 142.24 90)
@@ -6253,6 +7930,17 @@
 		)
 		(uuid "ecaf9a4d-bb16-4673-8318-6b25d78b7027")
 	)
+	(label "SCL{slash}21"
+		(at 111.76 57.15 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f26bcc71-4f1b-4921-827e-5668569b6f9f")
+	)
 	(label "32"
 		(at 54.61 109.22 270)
 		(fields_autoplaced yes)
@@ -6401,7 +8089,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000056d71aa9")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR04"
 			(at 31.75 30.48 0)
 			(effects
 				(font
@@ -6450,7 +8138,7 @@
 		(instances
 			(project "ArduinoMegaShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR03")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -6465,7 +8153,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000056d71d10")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR03"
 			(at 29.21 30.48 0)
 			(effects
 				(font
@@ -6514,7 +8202,7 @@
 		(instances
 			(project "ArduinoMegaShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR02")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -6529,7 +8217,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000056d721e6")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR05"
 			(at 31.75 58.42 0)
 			(effects
 				(font
@@ -6577,7 +8265,7 @@
 		(instances
 			(project "ArduinoMegaShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR04")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -6593,7 +8281,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000056d72368")
-		(property "Reference" "J2"
+		(property "Reference" "J5"
 			(at 57.15 24.13 0)
 			(effects
 				(font
@@ -6668,7 +8356,7 @@
 		(instances
 			(project "ArduinoMegaShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "J2")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -6683,7 +8371,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000056d72a3d")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR06"
 			(at 64.77 58.42 0)
 			(effects
 				(font
@@ -6731,7 +8419,7 @@
 		(instances
 			(project "ArduinoMegaShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR05")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -6746,7 +8434,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000056d72f1c")
-		(property "Reference" "J3"
+		(property "Reference" "J2"
 			(at 39.37 57.15 0)
 			(effects
 				(font
@@ -6815,7 +8503,7 @@
 		(instances
 			(project "ArduinoMegaShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "J3")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -6831,7 +8519,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000056d734d0")
-		(property "Reference" "J4"
+		(property "Reference" "J6"
 			(at 57.15 57.15 0)
 			(effects
 				(font
@@ -6900,7 +8588,7 @@
 		(instances
 			(project "ArduinoMegaShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "J4")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -6915,7 +8603,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000056d73a0e")
-		(property "Reference" "J5"
+		(property "Reference" "J3"
 			(at 39.37 82.55 0)
 			(effects
 				(font
@@ -6984,7 +8672,7 @@
 		(instances
 			(project "ArduinoMegaShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "J5")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -7000,7 +8688,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000056d73f2c")
-		(property "Reference" "J6"
+		(property "Reference" "J7"
 			(at 57.15 82.55 0)
 			(effects
 				(font
@@ -7069,7 +8757,7 @@
 		(instances
 			(project "ArduinoMegaShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "J6")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -7085,7 +8773,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000056d743b5")
-		(property "Reference" "J7"
+		(property "Reference" "J4"
 			(at 24.6379 125.8506 90)
 			(effects
 				(font
@@ -7239,7 +8927,7 @@
 		(instances
 			(project "ArduinoMegaShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "J7")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -7254,7 +8942,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000056d758f6")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR01"
 			(at 21.59 146.05 0)
 			(effects
 				(font
@@ -7302,7 +8990,7 @@
 		(instances
 			(project "ArduinoMegaShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR07")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -7317,7 +9005,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000056d75ab8")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR07"
 			(at 74.93 115.57 0)
 			(effects
 				(font
@@ -7365,7 +9053,7 @@
 		(instances
 			(project "ArduinoMegaShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR06")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -7380,7 +9068,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "003c59dc-95cb-4160-b3f2-b5a369b5e1e5")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR022"
 			(at 157.48 24.13 0)
 			(effects
 				(font
@@ -7431,76 +9119,7 @@
 		(instances
 			(project "ArduinoMegaShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 240.03 135.89 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "017331af-7134-4401-b4a6-6496f2fa9527")
-		(property "Reference" "R4"
-			(at 241.3 134.874 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10K"
-			(at 241.3 137.414 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 238.252 135.89 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 240.03 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 240.03 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4ca80666-2c33-4577-a99b-3d845aad9338")
-		)
-		(pin "2"
-			(uuid "658857da-05dd-42f6-acc6-304bc32882a8")
-		)
-		(instances
-			(project "ArduinoMegaShield"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "R4")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -7515,7 +9134,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "04208d5c-c022-40db-8ff0-e1736a0c6fdd")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR028"
 			(at 217.17 54.61 0)
 			(effects
 				(font
@@ -7563,51 +9182,105 @@
 		(instances
 			(project "ArduinoMegaShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR025")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 251.46 114.3 0)
+		(lib_id "power:+3V3")
+		(at 148.59 101.6 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0a55ec46-a594-454c-b8c4-51073bd6b844")
+		(property "Reference" "#PWR020"
+			(at 148.59 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 148.59 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 148.59 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5e81e3d6-dfe1-440d-b43b-42e47bc26bdc")
+		)
+		(instances
+			(project "ArduinoMegaShield"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Barrel_Jack_Switch")
+		(at 124.46 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "0743f887-ca9b-45ab-8ea3-a635efd6cb00")
-		(property "Reference" "R5"
-			(at 254 113.0299 0)
+		(uuid "0ba6012c-e9d3-4a63-b1ea-52806536131d")
+		(property "Reference" "J18"
+			(at 124.46 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "20R"
-			(at 254 115.5699 0)
+		(property "Value" "Barrel_Jack_Switch"
+			(at 124.46 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 252.476 114.554 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.caddock.com/online_catalog/mrktg_lit/MP9000_Series.pdf"
-			(at 251.46 114.3 0)
+		(property "Footprint" "Connector_BarrelJack:BarrelJack_CUI_PJ-102AH_Horizontal"
+			(at 125.73 82.296 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7615,8 +9288,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, MP915 20.0 1%"
-			(at 251.46 114.3 0)
+		(property "Datasheet" "~"
+			(at 125.73 82.296 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7624,16 +9297,28 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "dabf1486-8c25-4959-a859-2147cbc133f0")
+		(property "Description" "DC Barrel Jack with an internal switch"
+			(at 124.46 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "45cf11ad-32b7-4654-9c61-b3a4aa1ee748")
 		)
 		(pin "1"
-			(uuid "198a9766-f70f-4b28-b6ea-fb13b0144e57")
+			(uuid "c8cf6de1-9250-46b9-9ec9-2abb16f580a9")
+		)
+		(pin "2"
+			(uuid "88cb18c8-e382-4742-9a17-99ff77dce956")
 		)
 		(instances
 			(project "ArduinoMegaShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "R5")
+					(reference "J18")
 					(unit 1)
 				)
 			)
@@ -7648,7 +9333,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0bfe249c-52a6-4b10-9989-2a6d3c3c7b6d")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR017"
 			(at 127 46.99 0)
 			(effects
 				(font
@@ -7697,7 +9382,148 @@
 		(instances
 			(project "ArduinoMegaShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR018")
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 154.94 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0c5c74a4-37d5-403c-9cd1-ca8848b96e52")
+		(property "Reference" "J15"
+			(at 157.48 39.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 157.48 41.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_EH_S4B-EH_1x04_P2.50mm_Horizontal"
+			(at 154.94 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 154.94 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "608ac9a5-34a6-4bc8-a287-dbc2177e42ed")
+		)
+		(pin "3"
+			(uuid "78fc4ff6-21c0-490b-82da-d1113a20b515")
+		)
+		(pin "4"
+			(uuid "4787a31b-a216-43fc-92fd-83bfc31122cd")
+		)
+		(pin "1"
+			(uuid "acf65642-229b-4d37-8fe3-ed86fb57f73d")
+		)
+		(instances
+			(project "ArduinoMegaShield"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "J15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 270.51 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "11ece319-e8fe-46c9-b6ed-7aa5b8a0a8b4")
+		(property "Reference" "#PWR033"
+			(at 270.51 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 270.51 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 270.51 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 270.51 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 270.51 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f5d9a368-26b6-46ec-afe6-b85d3ace0d0a")
+		)
+		(instances
+			(project "ArduinoMegaShield"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -7712,7 +9538,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1ac38aff-99eb-48e6-aedf-9d3c79c8891a")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR026"
 			(at 190.5 46.99 0)
 			(effects
 				(font
@@ -7761,78 +9587,14 @@
 		(instances
 			(project "ArduinoMegaShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR022")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 251.46 110.49 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "213e9135-1547-4244-bb98-a39997a7bb62")
-		(property "Reference" "#PWR012"
-			(at 251.46 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 251.46 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 251.46 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 251.46 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 251.46 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d5d6a47a-ef1c-41e2-b685-24947f0bd955")
-		)
-		(instances
-			(project "ArduinoMegaShield"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
+		(lib_name "MP6500_Pololu_1")
 		(lib_id "New_Library:MP6500_Pololu")
 		(at 135.89 29.21 0)
 		(unit 1)
@@ -7858,7 +9620,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Module:Pololu_Breakout-16_15.2x20.3mm"
 			(at 129.54 27.94 0)
 			(effects
 				(font
@@ -7943,6 +9705,335 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 218.44 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "27d83525-1859-4ec1-ae0f-d53ea1576b2a")
+		(property "Reference" "#PWR036"
+			(at 218.44 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 218.44 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 218.44 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6283df52-4d6b-41c3-8baa-bfdd4623f5d8")
+		)
+		(instances
+			(project "ArduinoMegaShield"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 205.74 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2dd96107-a368-4de1-bd0f-d2619f122aed")
+		(property "Reference" "#PWR027"
+			(at 205.74 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 205.74 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 205.74 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 205.74 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3e69bbf0-9a20-4c53-8968-1ed4c86c1387")
+		)
+		(instances
+			(project "ArduinoMegaShield"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 240.03 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "39a0f70a-fd4b-4d68-861d-14c9596ba33b")
+		(property "Reference" "R6"
+			(at 234.95 134.366 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 234.95 136.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 238.252 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 240.03 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 240.03 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c4133c76-1a7f-4064-9543-0b25a38adfb9")
+		)
+		(pin "2"
+			(uuid "a719474c-bff2-49d3-9462-806fc3616533")
+		)
+		(instances
+			(project "ArduinoMegaShield"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 261.62 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3c91f36d-4537-4aed-bb2a-ac65911d09d1")
+		(property "Reference" "#PWR038"
+			(at 261.62 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 261.62 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 261.62 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.62 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 261.62 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5f8cdf44-7292-4a2b-afbe-1263b252f20b")
+		)
+		(instances
+			(project "ArduinoMegaShield"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 137.16 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3d4dcf60-6ae1-4120-9963-b4170094dcd8")
+		(property "Reference" "#PWR018"
+			(at 137.16 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 137.16 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 137.16 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8b27fa12-86d4-4885-9682-154ba05231d2")
+		)
+		(instances
+			(project "ArduinoMegaShield"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+12V")
 		(at 224.79 24.13 270)
 		(unit 1)
@@ -7951,7 +10042,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "40bd642c-cff3-4cfa-86b4-2b1dda5f1d4d")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR030"
 			(at 220.98 24.13 0)
 			(effects
 				(font
@@ -8002,7 +10093,211 @@
 		(instances
 			(project "ArduinoMegaShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR023")
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 218.44 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "437ad023-7562-4955-8a94-2f1a70788ade")
+		(property "Reference" "R5"
+			(at 213.36 134.366 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 213.36 136.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 216.662 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 218.44 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 218.44 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1fd545e5-8cb3-43e3-b0ee-c385495c3f72")
+		)
+		(pin "2"
+			(uuid "1c0e4854-6356-4a92-81bf-faab0834d3c6")
+		)
+		(instances
+			(project "ArduinoMegaShield"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 105.41 109.22 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "443054d2-28cc-4ad8-ac4d-6ad2a7cf4704")
+		(property "Reference" "J11"
+			(at 98.298 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x02_Socket"
+			(at 83.058 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
+			(at 105.41 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 105.41 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "81e1495b-e349-4e0d-b70b-0d49040c97d6")
+		)
+		(pin "2"
+			(uuid "094bc42a-aabb-45f3-9260-5e5b86c3ef92")
+		)
+		(instances
+			(project "ArduinoMegaShield"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 148.59 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "45334d52-4d24-4958-a8b0-ff08f72fae0d")
+		(property "Reference" "#PWR021"
+			(at 148.59 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 148.59 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 148.59 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a0819bae-e893-4d47-88d4-11056bf8db72")
+		)
+		(instances
+			(project "ArduinoMegaShield"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -8010,15 +10305,15 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 90.17 57.15 90)
+		(at 90.17 83.82 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "4bf41130-0a3e-4c91-8c99-04df23577242")
-		(property "Reference" "#PWR016"
-			(at 93.98 57.15 0)
+		(property "Reference" "#PWR010"
+			(at 93.98 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8027,7 +10322,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 87.122 56.7944 90)
+			(at 87.122 83.4644 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8036,7 +10331,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 90.17 57.15 0)
+			(at 90.17 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8044,7 +10339,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 57.15 0)
+			(at 90.17 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8052,7 +10347,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 90.17 57.15 0)
+			(at 90.17 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8066,7 +10361,7 @@
 		(instances
 			(project "ArduinoMegaShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR016")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -8074,7 +10369,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:IRLB8721PBF")
-		(at 186.69 130.81 0)
+		(at 104.14 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8083,7 +10378,7 @@
 		(fields_autoplaced yes)
 		(uuid "5070ce6a-baf8-4e42-a68d-c3eb1f207a6f")
 		(property "Reference" "Q1"
-			(at 193.04 129.5399 0)
+			(at 110.49 125.7299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8092,7 +10387,7 @@
 			)
 		)
 		(property "Value" "IRLB8721PBF"
-			(at 193.04 132.0799 0)
+			(at 110.49 128.2699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8101,7 +10396,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 191.77 132.715 0)
+			(at 109.22 128.905 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8112,7 +10407,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.infineon.com/dgdl/irlb8721pbf.pdf?fileId=5546d462533600a40153566056732591"
-			(at 191.77 134.62 0)
+			(at 109.22 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8122,7 +10417,7 @@
 			)
 		)
 		(property "Description" "62A Id, 30V Vds, 8.7 mOhm Rds, N-Channel HEXFET Power MOSFET, TO-220"
-			(at 186.69 130.81 0)
+			(at 104.14 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8149,186 +10444,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 189.23 121.92 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "507d2658-4d3b-43d3-b2a3-7a066687d3ab")
-		(property "Reference" "R3"
-			(at 191.77 120.6499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "20R"
-			(at 191.77 123.1899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 190.246 122.174 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.caddock.com/online_catalog/mrktg_lit/MP9000_Series.pdf"
-			(at 189.23 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, MP915 20.0 1%"
-			(at 189.23 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0a4e8588-1f9f-484f-b94b-b66f6582ccc4")
-		)
-		(pin "1"
-			(uuid "467e0eef-211d-4351-ab60-fb3705c7e52a")
-		)
-		(instances
-			(project "ArduinoMegaShield"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "New_Library:MP6500_Pololu")
-		(at 199.39 29.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5160a80b-7ff7-4f48-85ce-af6acf138dd3")
-		(property "Reference" "U2"
-			(at 199.39 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MP6500_Pololu"
-			(at 199.39 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 193.04 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 193.04 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 193.04 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "9"
-			(uuid "fca97fd9-0895-468a-bca8-e34533a0e1a2")
-		)
-		(pin "3"
-			(uuid "6e115277-5526-4c54-bf8f-eb5430b124cd")
-		)
-		(pin "12"
-			(uuid "889b74ea-fac6-439f-87a2-abdc58818887")
-		)
-		(pin "4"
-			(uuid "adc48e1b-0093-4857-89fd-5fccdf8b50d6")
-		)
-		(pin "10"
-			(uuid "d74aa539-d7ac-44a6-9501-e24801bc2992")
-		)
-		(pin "13"
-			(uuid "ffdbb8a2-32d1-47e2-9bd2-c25981ba14a0")
-		)
-		(pin "1"
-			(uuid "aa1bfe8c-46d5-4950-b27b-2186c70d6d6e")
-		)
-		(pin "16"
-			(uuid "847c5d11-e79b-4d21-8c73-4c9d7760f23e")
-		)
-		(pin "5"
-			(uuid "cbce6859-820d-4121-a188-5e1cb9bee9a3")
-		)
-		(pin "6"
-			(uuid "4e42022a-0d61-4564-8838-1bd582f0d016")
-		)
-		(pin "11"
-			(uuid "af9d308b-7720-4993-97d4-1c5e8c41298d")
-		)
-		(pin "14"
-			(uuid "89491e7e-7eb7-4953-a927-f67100b6839a")
-		)
-		(pin "15"
-			(uuid "1de15a9f-6b50-478d-8ea7-ff275fe22825")
-		)
-		(pin "7"
-			(uuid "60ecdaff-262b-4b40-9d78-c1ec5d4b5cce")
-		)
-		(pin "2"
-			(uuid "7d89bd07-4c99-4f25-b610-dd98d48c6633")
-		)
-		(pin "8"
-			(uuid "051f751f-e144-4961-9d42-75676c3686f8")
-		)
-		(instances
-			(project "ArduinoMegaShield"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 224.79 31.75 90)
 		(unit 1)
@@ -8337,7 +10452,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "55bd2bd9-da48-4590-9615-297bfc6799f6")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR031"
 			(at 231.14 31.75 0)
 			(effects
 				(font
@@ -8385,7 +10500,76 @@
 		(instances
 			(project "ArduinoMegaShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR024")
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 175.26 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "59a812b7-7ebf-44fe-9d33-db19fdeab5f6")
+		(property "Reference" "R3"
+			(at 170.18 134.366 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 170.18 136.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 173.482 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 175.26 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 175.26 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "44b7f005-d345-4dd4-be34-2e70e4b8d609")
+		)
+		(pin "2"
+			(uuid "7f4dd9a5-36ee-428a-ab6e-045b358c9c1f")
+		)
+		(instances
+			(project "ArduinoMegaShield"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -8400,7 +10584,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5ca20c89-dc15-4322-ac65-caf5d0f5fcce")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR02"
 			(at 26.67 30.48 0)
 			(effects
 				(font
@@ -8451,110 +10635,39 @@
 		(instances
 			(project "ArduinoMegaShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR01")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 189.23 114.3 0)
+		(lib_id "Connector:Conn_01x10_Socket")
+		(at 191.77 105.41 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6196288e-df7a-4309-ab80-94346231e5c5")
-		(property "Reference" "R2"
-			(at 191.77 113.0299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "20R"
-			(at 191.77 115.5699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 190.246 114.554 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.caddock.com/online_catalog/mrktg_lit/MP9000_Series.pdf"
-			(at 189.23 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, MP915 20.0 1%"
-			(at 189.23 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "012e61bb-2221-4a49-b86b-a71fd04fb1e7")
-		)
-		(pin "1"
-			(uuid "3ddf44d9-25a1-41a5-acde-a8959bef9f13")
-		)
-		(instances
-			(project "ArduinoMegaShield"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x04_Socket")
-		(at 93.98 49.53 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "680545f9-a398-462d-8234-d3757a50bb70")
-		(property "Reference" "J9"
-			(at 95.25 44.45 90)
+		(uuid "622e161f-5fa5-47ee-beca-40ec5447d9c4")
+		(property "Reference" "J17"
+			(at 191.77 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Conn_01x04_Socket"
-			(at 95.25 46.99 90)
+		(property "Value" "Conn_01x10_Socket"
+			(at 191.77 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 93.98 49.53 0)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Vertical"
+			(at 191.77 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8563,7 +10676,99 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 93.98 49.53 0)
+			(at 191.77 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x10, script generated"
+			(at 191.77 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "44d903c4-977b-4027-873d-1797f75289c2")
+		)
+		(pin "1"
+			(uuid "a60a6e23-e899-42c2-91e0-7339487dc7f2")
+		)
+		(pin "10"
+			(uuid "f31aa11f-0c7a-4d91-84ae-defec7959ed1")
+		)
+		(pin "2"
+			(uuid "e19677d5-f5a1-470d-8943-91af508f102f")
+		)
+		(pin "4"
+			(uuid "8f2e4042-1287-4320-b37c-849586b717ae")
+		)
+		(pin "8"
+			(uuid "ab22662f-390b-4b4d-b5f7-7b13f167993a")
+		)
+		(pin "7"
+			(uuid "3e0cd457-010d-482a-ab02-5321355c6a43")
+		)
+		(pin "6"
+			(uuid "258e03ed-b6e8-4a33-8df6-ec34e71ec038")
+		)
+		(pin "9"
+			(uuid "a859f5df-75c0-43ef-9b88-de7c02f1d7b5")
+		)
+		(pin "5"
+			(uuid "77fe425b-f093-43d4-bcc8-84e401e80fab")
+		)
+		(instances
+			(project "ArduinoMegaShield"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "J17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Socket")
+		(at 93.98 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "680545f9-a398-462d-8234-d3757a50bb70")
+		(property "Reference" "J10"
+			(at 95.25 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x04_Socket"
+			(at 95.25 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
+			(at 93.98 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8572,7 +10777,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 93.98 49.53 0)
+			(at 93.98 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8595,82 +10800,6 @@
 		(instances
 			(project "ArduinoMegaShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "J9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x04_Socket")
-		(at 154.94 39.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7ff80f6e-95e4-4a39-b234-941b36f5e4e9")
-		(property "Reference" "J10"
-			(at 156.21 39.3699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x04_Socket"
-			(at 156.21 41.9099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 154.94 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 154.94 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 154.94 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4cee26be-788d-489a-8afa-d373487bbd33")
-		)
-		(pin "2"
-			(uuid "72a7be66-889c-42f1-acf0-c12eadd99338")
-		)
-		(pin "4"
-			(uuid "9d16305e-0e45-46ff-8d3f-bc15f9fd76cc")
-		)
-		(pin "3"
-			(uuid "63f700ce-9157-4df2-a93d-a127f36dd013")
-		)
-		(instances
-			(project "ArduinoMegaShield"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "J10")
 					(unit 1)
 				)
@@ -8678,16 +10807,16 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 189.23 135.89 0)
+		(lib_id "power:VCC")
+		(at 90.17 54.61 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "951e31c7-a03d-4a7f-bccd-0e0455bb8aa7")
-		(property "Reference" "#PWR010"
-			(at 189.23 142.24 0)
+		(uuid "6f642643-288e-4bce-8a99-7cfab6828738")
+		(property "Reference" "#PWR09"
+			(at 93.98 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8695,16 +10824,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 189.23 139.7 0)
+		(property "Value" "VCC"
+			(at 87.122 54.229 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 189.23 135.89 0)
+			(at 90.17 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8713,7 +10843,454 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.23 135.89 0)
+			(at 90.17 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 90.17 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e8409655-b4c8-44d2-8ccb-0b96edd128af")
+		)
+		(instances
+			(project "ArduinoMegaShield"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 196.85 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7227ee7f-3f31-48d6-8551-4dd10966a0b7")
+		(property "Reference" "R4"
+			(at 191.77 134.366 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 191.77 136.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 195.072 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 196.85 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 196.85 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "21ac1b7f-ea50-479c-8e66-1b8d1285fef7")
+		)
+		(pin "2"
+			(uuid "8f8d6f96-19a5-4e84-b9df-cc9b82488bd6")
+		)
+		(instances
+			(project "ArduinoMegaShield"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 93.98 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "77ad759a-31a8-4546-90aa-2bda9ec5f2fd")
+		(property "Reference" "#PWR012"
+			(at 93.98 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 93.98 61.214 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 93.98 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "276b0bc7-9ca3-47f2-a5bc-924735555ba6")
+		)
+		(instances
+			(project "ArduinoMegaShield"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 147.32 109.22 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7827d05a-048b-4890-acd3-7b20ec45a9fa")
+		(property "Reference" "J13"
+			(at 140.208 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x02_Socket"
+			(at 124.968 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
+			(at 147.32 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 147.32 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 147.32 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a6c6017c-f4fd-4daf-9b32-2f3d8b3cedf9")
+		)
+		(pin "2"
+			(uuid "b13ca02c-510e-4b25-b5d9-6f3211cbe509")
+		)
+		(instances
+			(project "ArduinoMegaShield"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "J13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "MP6500_Pololu_1")
+		(lib_id "New_Library:MP6500_Pololu")
+		(at 199.39 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7c9916e9-64b1-4556-b04b-9fb78e526635")
+		(property "Reference" "U2"
+			(at 199.39 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MP6500_Pololu"
+			(at 199.39 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Module:Pololu_Breakout-16_15.2x20.3mm"
+			(at 193.04 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 193.04 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "9"
+			(uuid "29f44185-f7a3-4911-8f25-23264e12921f")
+		)
+		(pin "3"
+			(uuid "6c4c3cad-2685-416f-b59a-d2ac6ff6883d")
+		)
+		(pin "12"
+			(uuid "33955d9b-83f5-4850-ab9f-87fa495f4aad")
+		)
+		(pin "4"
+			(uuid "a4bd369a-c6bf-4c27-8f97-2eef014d8cba")
+		)
+		(pin "10"
+			(uuid "c95235f7-72d0-4b7b-ae49-033050aeb342")
+		)
+		(pin "13"
+			(uuid "b0557375-f305-489e-a26a-085e3695ad8d")
+		)
+		(pin "1"
+			(uuid "69bb7a06-7d7b-4623-a2ee-e0828411d200")
+		)
+		(pin "16"
+			(uuid "796c0874-d2b5-47c4-a109-730e80d81676")
+		)
+		(pin "5"
+			(uuid "dd326f8e-f176-4482-9d60-b5d0db3ec7f7")
+		)
+		(pin "6"
+			(uuid "9ff51422-56a3-4d84-9c7d-5e4a1972953e")
+		)
+		(pin "11"
+			(uuid "a1df57e0-673f-441e-b019-d8881b8726ff")
+		)
+		(pin "14"
+			(uuid "daad22f4-d373-441d-b823-4bbc3e61872d")
+		)
+		(pin "15"
+			(uuid "13587b4f-65e5-4a39-b290-d7db13779ebd")
+		)
+		(pin "7"
+			(uuid "454f3d86-d151-4e73-93da-05f59e6ba7f3")
+		)
+		(pin "2"
+			(uuid "3eb7dc60-7df1-4757-a493-4315b679d5ab")
+		)
+		(pin "8"
+			(uuid "93ac0d7c-d3a2-4b48-ab40-b9417cc4a251")
+		)
+		(instances
+			(project "ArduinoMegaShield"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 105.41 114.3 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7cb78315-a7a7-4f0f-85ab-4e3ff4effa6a")
+		(property "Reference" "J12"
+			(at 98.298 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x02_Socket"
+			(at 83.058 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
+			(at 105.41 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 105.41 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2502477d-bae4-489b-9ae0-79836440c507")
+		)
+		(pin "2"
+			(uuid "91257400-2901-479a-a393-945ca21d00eb")
+		)
+		(instances
+			(project "ArduinoMegaShield"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 227.33 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "833b842d-b5db-4ab8-9e35-65fa62c7c468")
+		(property "Reference" "#PWR029"
+			(at 227.33 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 227.33 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 227.33 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 227.33 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8722,7 +11299,72 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 189.23 135.89 0)
+			(at 227.33 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "52116b84-0643-49a8-86ac-fe486aca0df0")
+		)
+		(instances
+			(project "ArduinoMegaShield"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 106.68 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "951e31c7-a03d-4a7f-bccd-0e0455bb8aa7")
+		(property "Reference" "#PWR016"
+			(at 106.68 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 106.68 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 106.68 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8736,7 +11378,437 @@
 		(instances
 			(project "ArduinoMegaShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR010")
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 137.16 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9b66932e-f435-4e52-a2f5-812fd7ce142d")
+		(property "Reference" "R2"
+			(at 138.43 131.064 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 138.43 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 135.382 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 137.16 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "de0b6607-3387-417e-a541-087d0936dc2a")
+		)
+		(pin "2"
+			(uuid "7a3fafb0-8c6a-4e78-af41-d52f7d4c0a30")
+		)
+		(instances
+			(project "ArduinoMegaShield"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:IRLB8721PBF")
+		(at 246.38 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9f0b64df-1dc8-4bd3-9ba6-7114da8ba327")
+		(property "Reference" "Q6"
+			(at 243.586 142.494 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IRLB8721PBF"
+			(at 243.586 145.034 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+			(at 251.46 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.infineon.com/dgdl/irlb8721pbf.pdf?fileId=5546d462533600a40153566056732591"
+			(at 251.46 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "62A Id, 30V Vds, 8.7 mOhm Rds, N-Channel HEXFET Power MOSFET, TO-220"
+			(at 246.38 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "76e56428-00be-4ebc-ada1-cc42a25996b3")
+		)
+		(pin "3"
+			(uuid "d77242a7-a345-4e28-8fa6-b0afbacf9c0f")
+		)
+		(pin "2"
+			(uuid "4baa98b3-bb83-42e0-8915-c0d61c26e9e5")
+		)
+		(instances
+			(project "ArduinoMegaShield"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "Q6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 218.44 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a25a9e28-7a8d-45fb-a8dd-94ad2f23afe9")
+		(property "Reference" "J16"
+			(at 220.98 39.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 220.98 41.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_EH_S4B-EH_1x04_P2.50mm_Horizontal"
+			(at 218.44 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 218.44 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 218.44 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bdc74957-356b-41eb-b1de-7464a09b8d13")
+		)
+		(pin "3"
+			(uuid "469aa1ab-f29d-4430-a584-fc72418fc878")
+		)
+		(pin "4"
+			(uuid "694e6ecd-720c-40d0-8dc7-3b05f9ba3d75")
+		)
+		(pin "1"
+			(uuid "99fc09e5-a199-4dd1-8c62-d1f70ae4d9cf")
+		)
+		(instances
+			(project "ArduinoMegaShield"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "J16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:IRLB8721PBF")
+		(at 181.61 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "acf89f25-51cb-4245-b793-0326e01ab476")
+		(property "Reference" "Q3"
+			(at 178.816 142.494 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IRLB8721PBF"
+			(at 178.816 145.034 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+			(at 186.69 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.infineon.com/dgdl/irlb8721pbf.pdf?fileId=5546d462533600a40153566056732591"
+			(at 186.69 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "62A Id, 30V Vds, 8.7 mOhm Rds, N-Channel HEXFET Power MOSFET, TO-220"
+			(at 181.61 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "32292765-09cf-4709-942e-1b36bf1efb80")
+		)
+		(pin "3"
+			(uuid "084a2c29-60ac-446f-ba47-c617e10522a0")
+		)
+		(pin "2"
+			(uuid "af822854-bbe9-4565-bc47-e72b78669b22")
+		)
+		(instances
+			(project "ArduinoMegaShield"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 180.34 118.11 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "adf209b4-f9e0-4702-a291-04d472125840")
+		(property "Reference" "#PWR024"
+			(at 184.15 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 174.752 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 180.34 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c1892e04-4f97-4f19-adaa-1498c149eb1d")
+		)
+		(instances
+			(project "ArduinoMegaShield"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 261.62 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aff7aea8-c7bd-4adf-84d1-a3f4bfc2b9fc")
+		(property "Reference" "R7"
+			(at 256.54 134.366 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 256.54 136.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 259.842 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 261.62 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 261.62 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7ad3c78d-53df-4240-91ef-288503c7546d")
+		)
+		(pin "2"
+			(uuid "dc32c892-205b-49a2-8d16-218524e128dd")
+		)
+		(instances
+			(project "ArduinoMegaShield"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -8751,7 +11823,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b06a96cb-2e79-4be9-936d-c87b1b2fa97a")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR019"
 			(at 153.67 54.61 0)
 			(effects
 				(font
@@ -8799,7 +11871,7 @@
 		(instances
 			(project "ArduinoMegaShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR020")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -8833,7 +11905,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
 			(at 153.3652 31.75 0)
 			(effects
 				(font
@@ -8901,7 +11973,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
 			(at 93.98 22.86 0)
 			(effects
 				(font
@@ -8950,17 +12022,81 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:IRLB8721PBF")
-		(at 248.92 130.81 0)
+		(lib_id "power:GND")
+		(at 196.85 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cf8270ea-8fab-4e96-9b74-26a3b038fbd2")
-		(property "Reference" "Q2"
-			(at 255.27 129.5399 0)
+		(uuid "b688e19c-249f-49a4-ac6a-367d38b1df46")
+		(property "Reference" "#PWR035"
+			(at 196.85 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 196.85 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 196.85 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8a50960f-3fb0-45a8-a785-8a9c3b84678d")
+		)
+		(instances
+			(project "ArduinoMegaShield"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:IRLB8721PBF")
+		(at 267.97 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b981f855-63df-4a26-9785-01ce665e799d")
+		(property "Reference" "Q7"
+			(at 265.176 142.494 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8969,7 +12105,7 @@
 			)
 		)
 		(property "Value" "IRLB8721PBF"
-			(at 255.27 132.0799 0)
+			(at 265.176 145.034 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8978,7 +12114,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 254 132.715 0)
+			(at 273.05 133.985 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8989,7 +12125,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.infineon.com/dgdl/irlb8721pbf.pdf?fileId=5546d462533600a40153566056732591"
-			(at 254 134.62 0)
+			(at 273.05 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8999,7 +12135,7 @@
 			)
 		)
 		(property "Description" "62A Id, 30V Vds, 8.7 mOhm Rds, N-Channel HEXFET Power MOSFET, TO-220"
-			(at 248.92 130.81 0)
+			(at 267.97 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9008,18 +12144,223 @@
 			)
 		)
 		(pin "1"
-			(uuid "14aa2b36-a28e-4490-bf74-094bfe493dc7")
+			(uuid "9e8429ce-e20e-4aa5-bc05-e6023f206acb")
 		)
 		(pin "3"
-			(uuid "53bb9b88-d648-43a3-9867-e0dbc473009e")
+			(uuid "7ea2f424-a7e3-4f4d-a0f6-cddacc39305c")
 		)
 		(pin "2"
-			(uuid "30241e37-ac68-469d-a542-e2105af22e41")
+			(uuid "ddd6cf3a-8c14-46b0-ba48-2731f7163c05")
 		)
 		(instances
 			(project "ArduinoMegaShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "Q2")
+					(reference "Q7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 175.26 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ca2bfbbf-91ba-4c70-8a92-56240e147044")
+		(property "Reference" "#PWR034"
+			(at 175.26 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 175.26 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 175.26 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d8996c3d-6c42-4b23-bcf4-453d580a15ee")
+		)
+		(instances
+			(project "ArduinoMegaShield"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:IRLB8721PBF")
+		(at 224.79 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cb40280d-00e3-4a0b-97f4-b57c3a2ea091")
+		(property "Reference" "Q5"
+			(at 221.996 142.494 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IRLB8721PBF"
+			(at 221.996 145.034 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+			(at 229.87 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.infineon.com/dgdl/irlb8721pbf.pdf?fileId=5546d462533600a40153566056732591"
+			(at 229.87 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "62A Id, 30V Vds, 8.7 mOhm Rds, N-Channel HEXFET Power MOSFET, TO-220"
+			(at 224.79 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f18be346-c0e9-4a37-b68f-396b56d274e3")
+		)
+		(pin "3"
+			(uuid "9deee353-ecbd-4673-88c9-2b40d3680b2a")
+		)
+		(pin "2"
+			(uuid "934369e2-b859-436c-9279-4e9e8be44dea")
+		)
+		(instances
+			(project "ArduinoMegaShield"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "Q5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 184.15 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cd627978-fac1-46a4-acc9-f21f401e4fd4")
+		(property "Reference" "#PWR025"
+			(at 184.15 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 184.15 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 184.15 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 184.15 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5a5cbf0d-18a8-49c5-99e0-964e8152dc67")
+		)
+		(instances
+			(project "ArduinoMegaShield"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -9053,7 +12394,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
 			(at 216.8652 31.75 0)
 			(effects
 				(font
@@ -9096,6 +12437,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 147.32 114.3 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d6dc1c67-cf76-42c5-996c-10e8fc32abf7")
+		(property "Reference" "J14"
+			(at 140.208 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x02_Socket"
+			(at 124.968 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
+			(at 147.32 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 147.32 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 147.32 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b7974cc3-0bae-4ced-a5b9-eb94edebfe55")
+		)
+		(pin "2"
+			(uuid "885b3473-27ab-4b37-b0c2-516b602e05d9")
+		)
+		(instances
+			(project "ArduinoMegaShield"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "J14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 161.29 31.75 90)
 		(unit 1)
@@ -9104,7 +12514,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d7f80ed4-33af-402b-8710-b37f2cf21d25")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR023"
 			(at 167.64 31.75 0)
 			(effects
 				(font
@@ -9152,7 +12562,83 @@
 		(instances
 			(project "ArduinoMegaShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR027")
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:IRLB8721PBF")
+		(at 146.05 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "daaebeaa-4f3a-46dd-b411-1b5583badc76")
+		(property "Reference" "Q2"
+			(at 152.4 125.7299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IRLB8721PBF"
+			(at 152.4 128.2699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+			(at 151.13 128.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.infineon.com/dgdl/irlb8721pbf.pdf?fileId=5546d462533600a40153566056732591"
+			(at 151.13 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "62A Id, 30V Vds, 8.7 mOhm Rds, N-Channel HEXFET Power MOSFET, TO-220"
+			(at 146.05 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2076d6cd-798d-47a3-a4d4-104a55169ca6")
+		)
+		(pin "3"
+			(uuid "6782d3f7-1f33-475e-8a7b-f3d78a39f0dd")
+		)
+		(pin "2"
+			(uuid "c3011ffe-fbaa-47e2-8985-d63663e80531")
+		)
+		(instances
+			(project "ArduinoMegaShield"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -9167,7 +12653,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dc3ebba0-0a57-4aef-8927-eb15cb93b049")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR08"
 			(at 93.98 30.48 0)
 			(effects
 				(font
@@ -9218,7 +12704,7 @@
 		(instances
 			(project "ArduinoMegaShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR014")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -9226,15 +12712,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 177.8 139.7 0)
+		(at 95.25 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "dcc18534-7dda-4cd8-a951-cb7acdf31dfa")
-		(property "Reference" "#PWR08"
-			(at 177.8 146.05 0)
+		(property "Reference" "#PWR014"
+			(at 95.25 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9243,7 +12729,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 177.8 143.51 0)
+			(at 95.25 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9251,7 +12737,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 177.8 139.7 0)
+			(at 95.25 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9260,7 +12746,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 139.7 0)
+			(at 95.25 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9269,7 +12755,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 177.8 139.7 0)
+			(at 95.25 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9283,23 +12769,23 @@
 		(instances
 			(project "ArduinoMegaShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR08")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 240.03 139.7 0)
+		(lib_id "power:+3V3")
+		(at 135.89 78.74 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e487bc1c-3392-4883-9e1b-647bf20544a2")
-		(property "Reference" "#PWR011"
-			(at 240.03 146.05 0)
+		(uuid "dd051b12-8f70-46b0-ad24-569cb6a075e7")
+		(property "Reference" "#PWR039"
+			(at 135.89 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9307,8 +12793,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 240.03 143.51 0)
+		(property "Value" "+12V"
+			(at 135.89 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9316,7 +12802,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 240.03 139.7 0)
+			(at 135.89 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9325,7 +12811,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 240.03 139.7 0)
+			(at 135.89 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9333,8 +12819,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 240.03 139.7 0)
+		(property "Description" ""
+			(at 135.89 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9343,12 +12829,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "7a81830e-c371-48f0-bb76-a097d9c66df0")
+			(uuid "118209ca-2f42-43e2-b67b-7289bc6cc7be")
 		)
 		(instances
 			(project "ArduinoMegaShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR011")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -9356,15 +12842,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 251.46 135.89 0)
+		(at 248.92 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e76d8729-1718-45d0-a7ab-84182f4413be")
-		(property "Reference" "#PWR013"
-			(at 251.46 142.24 0)
+		(uuid "e0dc5e30-6dfb-4cff-aac2-5e22bf22fa8e")
+		(property "Reference" "#PWR032"
+			(at 248.92 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9373,7 +12859,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 251.46 139.7 0)
+			(at 248.92 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9381,7 +12867,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 251.46 135.89 0)
+			(at 248.92 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9390,7 +12876,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 251.46 135.89 0)
+			(at 248.92 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9399,7 +12885,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 251.46 135.89 0)
+			(at 248.92 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9408,12 +12894,77 @@
 			)
 		)
 		(pin "1"
-			(uuid "245f7a94-92b5-4805-bb81-8f96e67f3765")
+			(uuid "d7ac6113-03de-4096-ab33-98abbc220451")
 		)
 		(instances
 			(project "ArduinoMegaShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR013")
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 135.89 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e2975cc1-b5e5-4112-a6fd-7b3b422951db")
+		(property "Reference" "#PWR040"
+			(at 135.89 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 135.89 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 135.89 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7e00894a-ce2f-4f17-a7b7-d913920fb5b5")
+		)
+		(instances
+			(project "ArduinoMegaShield"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -9428,7 +12979,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ed096cf9-6c24-4ab3-901c-fb40518cef68")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR011"
 			(at 93.98 39.37 0)
 			(effects
 				(font
@@ -9476,7 +13027,7 @@
 		(instances
 			(project "ArduinoMegaShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR015")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -9484,15 +13035,15 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 189.23 110.49 0)
+		(at 106.68 101.6 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "ee1d3add-527a-4e80-905b-e473d525d2a4")
-		(property "Reference" "#PWR09"
-			(at 189.23 114.3 0)
+		(property "Reference" "#PWR015"
+			(at 106.68 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9501,7 +13052,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 189.23 106.68 0)
+			(at 106.68 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9509,7 +13060,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 189.23 110.49 0)
+			(at 106.68 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9518,7 +13069,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.23 110.49 0)
+			(at 106.68 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9527,7 +13078,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 189.23 110.49 0)
+			(at 106.68 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9541,7 +13092,7 @@
 		(instances
 			(project "ArduinoMegaShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR09")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -9549,7 +13100,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 177.8 135.89 0)
+		(at 95.25 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9557,7 +13108,7 @@
 		(dnp no)
 		(uuid "f0d4f470-8d0d-49de-a3be-8230526e1429")
 		(property "Reference" "R1"
-			(at 179.07 134.874 0)
+			(at 96.52 131.064 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9566,7 +13117,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 179.07 137.414 0)
+			(at 96.52 133.604 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9574,8 +13125,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 176.022 135.89 90)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 93.472 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9584,7 +13135,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 177.8 135.89 0)
+			(at 95.25 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9593,7 +13144,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 177.8 135.89 0)
+			(at 95.25 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9617,17 +13168,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x04_Socket")
-		(at 218.44 39.37 0)
+		(lib_id "Transistor_FET:IRLB8721PBF")
+		(at 203.2 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f2681c73-702c-4950-9dce-32c0dc143844")
-		(property "Reference" "J11"
-			(at 219.71 39.3699 0)
+		(uuid "f2aa0185-fc09-4b3c-88dc-e1788c70e9ac")
+		(property "Reference" "Q4"
+			(at 200.406 142.494 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9635,8 +13185,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x04_Socket"
-			(at 219.71 41.9099 0)
+		(property "Value" "IRLB8721PBF"
+			(at 200.406 145.034 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9644,26 +13194,29 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 218.44 39.37 0)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+			(at 208.28 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.infineon.com/dgdl/irlb8721pbf.pdf?fileId=5546d462533600a40153566056732591"
+			(at 208.28 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 218.44 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 218.44 39.37 0)
+		(property "Description" "62A Id, 30V Vds, 8.7 mOhm Rds, N-Channel HEXFET Power MOSFET, TO-220"
+			(at 203.2 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9672,91 +13225,18 @@
 			)
 		)
 		(pin "1"
-			(uuid "a2f9efab-dd2d-4dc9-ae87-6c6da6ec79b0")
-		)
-		(pin "2"
-			(uuid "c5aef518-2fee-44e6-ac8c-962c748dc08f")
-		)
-		(pin "4"
-			(uuid "caf4299d-de43-418f-a8e9-1f8e9344c9b8")
+			(uuid "1fab9c57-5c01-4cb9-8335-cd633183697f")
 		)
 		(pin "3"
-			(uuid "916c9be5-aae7-4dff-b28a-b230daa9360e")
-		)
-		(instances
-			(project "ArduinoMegaShield"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "J11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 251.46 121.92 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fb264587-a5f0-4784-a2ac-3d7955d27f36")
-		(property "Reference" "R6"
-			(at 254 120.6499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "20R"
-			(at 254 123.1899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 252.476 122.174 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.caddock.com/online_catalog/mrktg_lit/MP9000_Series.pdf"
-			(at 251.46 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, MP915 20.0 1%"
-			(at 251.46 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+			(uuid "8a6198ac-6733-40ad-bb83-459916147bbd")
 		)
 		(pin "2"
-			(uuid "95d6f7e2-1fe6-46a2-b2bb-879dfd16b4db")
-		)
-		(pin "1"
-			(uuid "6b8e4a0c-ffdf-42c4-8f60-5b4c0b5b4120")
+			(uuid "e84a902e-9b78-4ac9-95bb-81db54ddea07")
 		)
 		(instances
 			(project "ArduinoMegaShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "R6")
+					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -9764,15 +13244,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 93.98 59.69 0)
+		(at 240.03 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "fd760aad-fa57-4931-ad50-c9e5f3a88215")
-		(property "Reference" "#PWR017"
-			(at 93.98 66.04 0)
+		(uuid "f898b306-47d4-44c4-b8e7-7a75da3f7e3a")
+		(property "Reference" "#PWR037"
+			(at 240.03 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9781,7 +13261,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 93.98 63.754 0)
+			(at 240.03 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9789,7 +13269,72 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 93.98 59.69 0)
+			(at 240.03 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 240.03 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "09e3d26a-b542-4437-9d46-853735247dcf")
+		)
+		(instances
+			(project "ArduinoMegaShield"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 93.98 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fd760aad-fa57-4931-ad50-c9e5f3a88215")
+		(property "Reference" "#PWR013"
+			(at 93.98 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 93.98 90.424 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9797,7 +13342,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 59.69 0)
+			(at 93.98 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9805,7 +13350,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 93.98 59.69 0)
+			(at 93.98 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9819,7 +13364,81 @@
 		(instances
 			(project "ArduinoMegaShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR017")
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Socket")
+		(at 93.98 46.99 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fdaf3411-0500-4bf9-9170-705e71762880")
+		(property "Reference" "J9"
+			(at 95.25 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x04_Socket"
+			(at 95.25 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
+			(at 93.98 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 93.98 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "23e61928-d35f-4456-a308-e3d138723fbf")
+		)
+		(pin "2"
+			(uuid "1ee7ca0b-bba1-47d8-9c8a-44976bcf147c")
+		)
+		(pin "4"
+			(uuid "fd8914b9-1048-45d5-9f87-7d1974d53b79")
+		)
+		(pin "3"
+			(uuid "6208b8b8-9ebd-44fc-acd3-731e26845c9c")
+		)
+		(instances
+			(project "ArduinoMegaShield"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "J9")
 					(unit 1)
 				)
 			)
