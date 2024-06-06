@@ -6922,9 +6922,9 @@
 		)
 		(uuid "651c323c-1774-4127-be09-7ab692d504e7")
 	)
-	(text "Heating Capacitors (zigzag Resistors)"
+	(text "Heating Capacitors"
 		(exclude_from_sim no)
-		(at 99.314 94.742 0)
+		(at 90.17 94.996 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12163,6 +12163,69 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 189.23 27.94 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bba3f1e6-3806-4237-a753-1dcc63196871")
+		(property "Reference" "#PWR042"
+			(at 182.88 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 184.15 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 189.23 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 189.23 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4049c419-0ea9-4771-81d2-4502756e6d0a")
+		)
+		(instances
+			(project "ArduinoMegaShield"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 175.26 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12639,6 +12702,69 @@
 			(project "ArduinoMegaShield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 125.73 27.94 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "daccc564-eb6e-4951-85f3-3b0aedd77f2d")
+		(property "Reference" "#PWR041"
+			(at 119.38 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 120.65 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 125.73 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 125.73 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d19d1aa5-bc15-44c2-9e96-d2b5dd322c9b")
+		)
+		(instances
+			(project "ArduinoMegaShield"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
