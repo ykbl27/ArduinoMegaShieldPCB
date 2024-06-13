@@ -1,4 +1,25 @@
-23332807805589052
+23341383995919992
+Arduino_MountingHole
+MountingHole_1.2mm
+Mounting Hole 2.1mm, no annular
+mounting hole 2.1mm no annular
+0
+0
+0
+Arduino_MountingHole
+MountingHole_3.2mm
+Mounting Hole 3.2mm, no annular, M3
+mounting hole 3.2mm no annular m3
+0
+0
+0
+Arduino_MountingHole
+MountingHole_65mil
+Mounting Hole 2.1mm, no annular
+mounting hole 2.1mm no annular
+0
+0
+0
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -62432,6 +62453,13 @@ solder jumper open
 0
 5
 3
+L721RAHLP
+SWITCHCRAFT_L721RAHLP
+
+
+0
+3
+3
 LED_SMD
 LED-APA102-2020
 http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf
@@ -95332,3 +95360,10 @@ Varistor VF
 0
 2
 2
+footprints
+SW_450301014042_WRE
+
+450301014042 
+0
+3
+3
