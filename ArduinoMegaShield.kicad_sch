@@ -7060,7 +7060,7 @@
 		)
 		(uuid "0d6b8791-a37e-4e07-bd3f-2f2576681217")
 	)
-	(text "Heating Capacitors\nbetween 1 and 2/3"
+	(text "Heating Elements\nbetween 1 and 2/3"
 		(exclude_from_sim no)
 		(at 91.186 113.03 0)
 		(effects
@@ -7070,7 +7070,7 @@
 		)
 		(uuid "12812655-db05-4113-852b-5db3de17637e")
 	)
-	(text "Heating Capacitors\nbetween 1 and 2/3"
+	(text "Heating Elements\nbetween 1 and 2/3"
 		(exclude_from_sim no)
 		(at 133.096 113.03 0)
 		(effects
@@ -7100,7 +7100,7 @@
 		)
 		(uuid "4a8ab1c7-73fa-4401-9161-0f844dd7b209")
 	)
-	(text "Heating Capacitors"
+	(text "Heating Elements"
 		(exclude_from_sim no)
 		(at 90.17 94.996 0)
 		(effects
